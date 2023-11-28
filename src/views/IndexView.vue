@@ -1,5 +1,5 @@
 <template>
-  <p class="mt-5 ms-6">Single File Upload</p>
+  <p class="mt-5 ms-6">SINGLE FILE</p>
   <div class="flex flex-wrap">
     <SingleFileUpload
       :uploadedFile="uploadedFile"
@@ -12,7 +12,7 @@
             <label
               v-if="!file.file.previewUrl"
               for="dropzone-file"
-              class="flex flex-col items-center justify-center w-full h-56 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
+              class="flex flex-col items-center justify-center w-full h-56 border-2 border-rose-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
             >
               <div
                 class="flex flex-col items-center justify-center pt-5 pb-6 px-10"
@@ -33,11 +33,11 @@
                   />
                 </svg>
                 <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                  <span class="font-semibold">Click to upload</span> or drag and
-                  drop
+                  <span class="font-semibold">DROP ZONE</span>
+                  
                 </p>
                 <p class="text-xs text-gray-500 dark:text-gray-400">
-                  SVG, PNG, JPG or GIF
+                 SVG PNG JPG  GIF
                 </p>
               </div>
             </label>
@@ -68,7 +68,7 @@
   </div>
   <br />
   <hr />
-  <p class="mt-5 ms-6">Multiple File Upload</p>
+  <p class="mt-5 ms-6">MULTI_FILE INSPECTION</p>
   <div class="flex flex-wrap">
     <MultipleFileUpload
       :removeBtnText="'remove'"
@@ -105,8 +105,7 @@
                   />
                 </svg>
                 <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                  <span class="font-semibold">Click to upload</span> or drag and
-                  drop
+                  <span class="font-semibold">DROPZONE</span>
                 </p>
                 <p class="text-xs text-gray-500 dark:text-gray-400">
                   SVG, PNG, JPG or GIF
